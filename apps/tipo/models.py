@@ -15,11 +15,3 @@ class Tipo(models.Model):
 
     def __str__(self):
         return self.name
-    
-    #class Tipo {
-   # - nome: String
-   # - descricao: String
-   # - velocidade: int
-   # - resolucao: String
-   # --
-   # + toString(): String

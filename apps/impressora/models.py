@@ -1,5 +1,5 @@
 from django.db import models
-from tipo.models import Category
+from tipo.models import Tipo
 
 # Create your models here.
 
