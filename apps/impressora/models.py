@@ -3,7 +3,7 @@ from tipo.models import Category
 
 # Create your models here.
 
-class Product(models.Model):
+class Impressora(models.Model):
     name = models.CharField('Nome', max_length=50)
     marca = models.CharField('Marca', max_length=50)
     precoDiario = models.DecimalField('Preço Diário', max_digits=10, decimal_places=2) 
