@@ -42,6 +42,8 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'tipo.apps.TipoConfig',
+    'impressora.apps.ImpressoraConfig',
+
 
 ]
 
