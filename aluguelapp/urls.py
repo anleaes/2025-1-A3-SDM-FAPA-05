@@ -21,3 +21,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('tipos/', include('tipos.urls', namespace='Tipos')),
 ]
+#a
