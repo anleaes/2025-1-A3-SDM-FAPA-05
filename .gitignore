@@ -1,6 +1,6 @@
 aluguelapp/__pycache__/*
-/apps/Tipo/__pycache__/*
-/apps/Tipo/migrations/*
+/apps/tipo/__pycache__/*
+/apps/tipo/migrations/*
 
 /apps/Impressora/__pycache__/*
 /apps/Impressora/migrations/*
