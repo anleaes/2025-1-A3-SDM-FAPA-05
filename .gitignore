@@ -2,11 +2,11 @@ aluguelapp/__pycache__/*
 /apps/tipo/__pycache__/*
 /apps/tipo/migrations/*
 
-/apps/Impressora/__pycache__/*
-/apps/Impressora/migrations/*
+/apps/impressora/__pycache__/*
+/apps/impressora/migrations/*
 
-/apps/Cliente/__pycache__/*
-/apps/Cliente/migrations/*
+/apps/cliente/__pycache__/*
+/apps/cliente/migrations/*
 
 /apps/Fornecedor/__pycache__/*
 /apps/Fornecedor/migrations/*
