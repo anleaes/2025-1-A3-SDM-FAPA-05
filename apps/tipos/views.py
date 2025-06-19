@@ -4,7 +4,8 @@ from django.shortcuts import render
 
 from .models import Tipo
 from rest_framework import viewsets
-from .serializer import TipoSerializer
+from .serealizer import TipoSerializer
+
 
 # Após o comentario "# Create your views here." e crie as views "Category".
 
