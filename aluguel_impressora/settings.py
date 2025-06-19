@@ -41,6 +41,8 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'tipos.apps.TiposConfig',
+    'apps.tipos',
+
 
 
 ]
