@@ -22,3 +22,6 @@ urlpatterns = [
 ]
 
 path('tipos/', include('tipos.urls', namespace='tipos')),    
+
+path('impressoras/', include('products.urls', namespace='impressoras')),
+
