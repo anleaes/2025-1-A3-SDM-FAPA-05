@@ -1,0 +1,4 @@
+
+aluguel_app/__pycache__/*
+/apps/types/__pycache__/*
+/apps/types/migrations/*
