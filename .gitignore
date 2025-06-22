@@ -8,3 +8,6 @@ aluguel_app/__pycache__/*
 
 /apps/tipos/__pycache__/*
 /apps/tipos/migrations/*
+
+/apps/ItemAluguel/__pycache__/*
+/apps/ItemAluguel/migrations/*
