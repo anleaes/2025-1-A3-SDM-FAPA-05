@@ -5,3 +5,6 @@ aluguel_app/__pycache__/*
 
 /apps/impressoras/__pycache__/*
 /apps/impressoras/migrations/*
+
+/apps/tipos/__pycache__/*
+/apps/tipos/migrations/*

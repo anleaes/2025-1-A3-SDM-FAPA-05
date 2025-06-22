@@ -41,12 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
     'rest_framework',
-    'tipos.apps.TiposConfig',
-    'impressoras.apps.ImpressorasConfig',
-    'apps.impressoras.models.Impressora',
-
 
 
 ]
