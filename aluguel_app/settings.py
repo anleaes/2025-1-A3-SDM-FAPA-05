@@ -45,6 +45,8 @@ INSTALLED_APPS = [
 
     'tipos.apps.TiposConfig',
     'impressoras.apps.ImpressorasConfig',
+    'itemaluguel.apps.ItemaluguelConfig',
+
 
 
 
