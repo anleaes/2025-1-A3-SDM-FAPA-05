@@ -3,7 +3,7 @@ from tipos.models import Tipo
 
 # Create your models here.
 
-class Impressora(models.Model):
+class Impressoras(models.Model):
     name = models.CharField('Nome', max_length=50)
     marca = models.TextField('Marca', max_length=100)
     preco_diario = models.DateField('Preco Diario', auto_now=False, auto_now_add=False) 
