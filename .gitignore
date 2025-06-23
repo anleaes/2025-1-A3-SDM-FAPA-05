@@ -12,5 +12,8 @@ aluguel_app/__pycache__/*
 /apps/ItemAluguel/__pycache__/*
 /apps/ItemAluguel/migrations/*
 
-/apps/clients/__pycache__/*
-/apps/clients/migrations/*
+/apps/clientes/__pycache__/*
+/apps/clientes/migrations/*
+
+/apps/fornecedores/__pycache__/*
+/apps/fornecedores/migrations/*
