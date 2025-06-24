@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 
     'rest_framework',
-    'categorias.apps.CategoriasConfig',
+    'categorias.apps.CategoriaConfig',
 
 
 ]
