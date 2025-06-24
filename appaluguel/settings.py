@@ -45,6 +45,8 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'categorias.apps.CategoriaConfig',
+    'impressoras.apps.ImpressoraConfig',
+
 
 
 ]
