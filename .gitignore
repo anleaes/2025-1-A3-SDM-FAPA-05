@@ -1,7 +1,25 @@
-modeloapp/__pycache__/*
+projetoapp/__pycache__/*
+
 /apps/categorias/__pycache__/*
 /apps/categorias/migrations/*
 
-
 /apps/impressoras/__pycache__/*
 /apps/impressoras/migrations/*
+
+/apps/fornecedores/__pycache__/*
+/apps/fornecedores/migrations/*
+
+/apps/clientes/__pycache__/*
+/apps/clientes/migrations/*
+
+/apps/pedidos/__pycache__/*
+/apps/pedidos/migrations/*
+
+/apps/promocao/__pycache__/*
+/apps/promocao/migrations/*
+
+/apps/pedidoitem/__pycache__/*
+/apps/pedidoitem/migrations/*
+
+/apps/clientespromocao/__pycache__/*
+/apps/clientespromocao/migrations/*
