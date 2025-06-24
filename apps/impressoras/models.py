@@ -1,5 +1,5 @@
 from django.db import models
-from categories.models import Categoria
+from categorias.models import Categoria
 
 # Create your models here.
 

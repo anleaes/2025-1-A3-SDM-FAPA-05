@@ -1,7 +1,7 @@
 from django.apps import AppConfig
 
 
-class ImpressorasConfig(AppConfig):
+class ImpressoraConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
     name = "impressoras"
     verbose_name = 'Impressoras'
