@@ -6,4 +6,5 @@ from .serializer import ImpressoraSerializer
 # Create your views here.
 class ImpressoraViewSet(viewsets.ModelViewSet):
     queryset = Impressora.objects.all()
-    serializer_class = ImpressoraSerializer  
+    serializer_class = ImpressoraSerializer 
+     
