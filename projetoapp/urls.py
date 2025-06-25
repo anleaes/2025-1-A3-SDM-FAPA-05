@@ -19,12 +19,9 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
-<<<<<<< HEAD:projetoapp/urls.py
-=======
+from django.urls import path, include
     path('categorias/', include('categorias.urls', namespace='categorias')),    
     path('impressoras/', include('impressoras.urls', namespace='impressoras')),
-    
 
->>>>>>> urls:appaluguel/urls.py
+
 ]
