@@ -47,6 +47,7 @@ APPS = [
     'categorias.apps.CategoriaConfig',
     'impressoras.apps.ImpressoraConfig',
     'clientes.apps.ClienteConfig',
+    'fornecedores.apps.FornecedorConfig',
 
 ]
 
