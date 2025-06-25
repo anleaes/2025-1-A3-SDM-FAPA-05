@@ -48,6 +48,7 @@ APPS = [
     'impressoras.apps.ImpressoraConfig',
     'clientes.apps.ClienteConfig',
     'fornecedores.apps.FornecedorConfig',
+    'pedidos.apps.PedidoConfig',
 
 ]
 
