@@ -52,7 +52,6 @@ APPS = [
     'clientepromocao.apps.ClientepromocaoConfig',
     'promocao.apps.PromocaoConfig',
     'pedidoitem.apps.PedidoitemConfig',
-
 ]
 
 
