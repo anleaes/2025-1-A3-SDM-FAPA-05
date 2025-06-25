@@ -50,6 +50,7 @@ APPS = [
     'fornecedores.apps.FornecedorConfig',
     'pedidos.apps.PedidoConfig',
     'clientepromocao.apps.ClientepromocaoConfig',
+    'promocao.apps.PromocaoConfig',
 
 ]
 
