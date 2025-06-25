@@ -1,6 +1,7 @@
 from django.apps import AppConfig
 
 
-class PedidositemConfig(AppConfig):
+class PedidoitemConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "pedidositem"
+    name = "pedidoitem"
+    verbose_name = 'Pedido Item'
