@@ -45,6 +45,8 @@ APPS = [
     
     'rest_framework',
     'categorias.apps.CategoriaConfig',
+    'impressoras.apps.ImpressoraConfig',
+    'clientes.apps.ClienteConfig',
 
 ]
 
