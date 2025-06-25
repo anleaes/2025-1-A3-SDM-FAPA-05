@@ -10,4 +10,5 @@ router.register('', views.ImpressoraViewSet, basename='impressoras')
 
 urlpatterns = [
     path('', include(router.urls) )
+    
 ]
