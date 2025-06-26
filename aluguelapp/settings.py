@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'categories.apps.CategoriesConfig',
     'printers.apps.PrintersConfig',
     'orderitems.apps.OrderitemsConfig',
+    'orders.apps.OrdersConfig',
 
 
 
