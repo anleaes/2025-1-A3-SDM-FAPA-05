@@ -4,4 +4,4 @@ from django.apps import AppConfig
 class PrintersConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
     name = "printers"
-v   erbose_name = 'Impressoras'
+    verbose_name = 'Impressoras'
