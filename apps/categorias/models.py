@@ -1,12 +1,6 @@
-from django.db import models
-
-# Create your models here.
-
 class Categoria(models.Model):
     nome = models.CharField('Nome', max_length=50)
-    descricao = models.TextField('Descrição', max_length=200)
-    codigo = models.CharField('Código', max_length=20, unique=True)
-    ativa = models.BooleanField('Ativa', default=True)
+    descricao = models.TextField('Descricao', max_length=100)
     
     class Meta:
         verbose_name = 'Categoria'
@@ -15,4 +9,3 @@ class Categoria(models.Model):
 
     def __str__(self):
         return self.name
-
