@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'categories.apps.CategoriesConfig',
     'printers.apps.PrintersConfig',
     'documents.apps.DocumentsConfig',
+    'clients.apps.ClientsConfig',
+
 
 
 
