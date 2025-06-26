@@ -11,7 +11,7 @@ class Category(models.Model):
         null=True,
         blank=True
     )
-    tipo = models.CharField(
+    asasasasssaas = models.CharField(
         'Tipo de Impressora',
         max_length=30,
         choices=[
