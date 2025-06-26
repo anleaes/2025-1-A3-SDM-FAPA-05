@@ -17,8 +17,8 @@ lojaapp/__pycache__/*
 /apps/fornecedores/migrations/*
 
 #Clientes
-/apps/clientes/__pycache__/*
-/apps/clientes/migrations/*
+/apps/clients/__pycache__/*
+/apps/clients/migrations/*
 
 #Pedidos
 /apps/pedidos/__pycache__/*
