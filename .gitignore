@@ -8,13 +8,17 @@ lojaapp/__pycache__/*
 /apps/printers/__pycache__/*
 /apps/printers/migrations/*
 
+#Documentos
+/apps/documentos/__pycache__/*
+/apps/documentos/migrations/*
+
 #Fornecedores
 /apps/fornecedores/__pycache__/*
 /apps/fornecedores/migrations/*
 
 #Clientes
-/apps/clientes/__pycache__/*
-/apps/clientes/migrations/*
+/apps/clients/__pycache__/*
+/apps/clients/migrations/*
 
 #Pedidos
 /apps/pedidos/__pycache__/*
@@ -23,10 +27,6 @@ lojaapp/__pycache__/*
 #PedidosItem
 /apps/pedidositem/__pycache__/*
 /apps/pedidositem/migrations/*
-
-#Promocao
-/apps/promocoes/__pycache__/*
-/apps/promocoes/migrations/*
 
 #ClientePromocao
 /apps/clientepromocao/__pycache__/*
