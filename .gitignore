@@ -1,8 +1,8 @@
 
 lojaapp/__pycache__/*
 #categorias
-/apps/categorias/__pycache__/*
-/apps/categorias/migrations/*
+/apps/categories/__pycache__/*
+/apps/categories/migrations/*
 
 #Impressoras
 /apps/impressoras/__pycache__/*
