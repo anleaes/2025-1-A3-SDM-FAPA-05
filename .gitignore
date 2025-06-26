@@ -5,8 +5,8 @@ lojaapp/__pycache__/*
 /apps/categories/migrations/*
 
 #Impressoras
-/apps/impressoras/__pycache__/*
-/apps/impressoras/migrations/*
+/apps/printers/__pycache__/*
+/apps/printers/migrations/*
 
 #Fornecedores
 /apps/fornecedores/__pycache__/*
