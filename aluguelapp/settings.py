@@ -45,8 +45,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'categories.apps.CategoriesConfig',
     'printers.apps.PrintersConfig',
-    'orderitems.apps.OrderitemsConfig',
-    'orders.apps.OrdersConfig',
 
 
 
