@@ -21,8 +21,8 @@ lojaapp/__pycache__/*
 /apps/clients/migrations/*
 
 #Pedidos
-/apps/pedidos/__pycache__/*
-/apps/pedidos/migrations/*
+/apps/orders/__pycache__/*
+/apps/orders/migrations/*
 
 #PedidosItem
 /apps/pedidositem/__pycache__/*

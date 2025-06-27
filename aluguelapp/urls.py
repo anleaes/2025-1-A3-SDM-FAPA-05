@@ -24,5 +24,6 @@ urlpatterns = [
     path('impressoras/', include('printers.urls', namespace='printers') ),
     path('documentos/', include('documents.urls', namespace='documents')), 
     path('clientes/', include('clients.urls', namespace='clients')),
+    path('fornecedores/', include('fornecedores.urls', namespace='fornecedores')),
 
 ]
