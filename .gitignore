@@ -25,10 +25,7 @@ lojaapp/__pycache__/*
 /apps/orders/migrations/*
 
 #PedidosItem
-/apps/pedidositem/__pycache__/*
-/apps/pedidositem/migrations/*
+/apps/orderitems/__pycache__/*
+/apps/orderitems/migrations/*
 
-#ClientePromocao
-/apps/clientepromocao/__pycache__/*
-/apps/clientepromocao/migrations/*
 

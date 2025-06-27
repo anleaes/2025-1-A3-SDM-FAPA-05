@@ -1,11 +1,8 @@
 from django.db import models
 
 # Create your models here.
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 1b06eb95f3c674c337cc8998b1081cdc2432479e
 class Fornecedor(models.Model):
     razao_social = models.CharField('Razão Social', max_length=100)
     nome = models.CharField('Nome', max_length=100)
