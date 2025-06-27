@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'clients.apps.ClientsConfig',
     'fornecedores.apps.FornecedoresConfig',
     'orders.apps.OrdersConfig',
+    'orderitems.apps.OrderitemsConfig',
 
 
 
