@@ -56,7 +56,7 @@ INSTALLED_APPS = [
     'orderitems.apps.OrderitemsConfig',
 
     'django_filters',
-    'rest_framework.authtoken'
+    #'rest_framework.authtoken'
 
 
 ]
@@ -94,6 +94,15 @@ WSGI_APPLICATION = "aluguelapp.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
+#TOKEN
+# REST_FRAMEWORK = {
+#     'DEFAULT_AUTHENTICATION_CLASSES': [
+#         'rest_framework.authentication.TokenAuthentication',
+#     ],
+#     'DEFAULT_PERMISSION_CLASSES': [
+#         'rest_framework.permissions.IsAuthenticated',
+#     ],
+# }
 
 DATABASES = {
     'default': {
