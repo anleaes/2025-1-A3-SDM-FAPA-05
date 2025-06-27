@@ -54,11 +54,9 @@ INSTALLED_APPS = [
     'fornecedores.apps.FornecedoresConfig',
     'orders.apps.OrdersConfig',
     'orderitems.apps.OrderitemsConfig',
+
     'django_filters',
-
-
-
-
+    'rest_framework.authtoken'
 
 
 ]
