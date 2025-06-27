@@ -27,7 +27,7 @@ from rest_framework.authtoken.views import obtain_auth_token
 
 def home(request):
     html = """
-    <h1>Bem-vindo ao Sistema!</h1>
+    <h1>Sistema de gerenciamento de Aluguel de impressoras!</h1>
     <p>Escolha uma das opções abaixo:</p>
     <ul>
         <li><a href="/admin/">Admin</a></li>

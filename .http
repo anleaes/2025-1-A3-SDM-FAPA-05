@@ -1,2 +1,2 @@
 GET http://localhost:8000/categorias
-Authorization: Token SEU_TOKEN
+Authorization: Token aeab9aa3d2c634c4f6ef62bcc46b85f1a8d6b4f4
