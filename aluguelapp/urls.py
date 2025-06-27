@@ -23,6 +23,7 @@ from django.urls import path, include
 from django.conf.urls.static import static
 from django.conf import settings
 from django.http import HttpResponse
+from rest_framework.authtoken.views import obtain_auth_token
 
 def home(request):
     html = """
@@ -51,6 +52,8 @@ urlpatterns = [
     path('fornecedores/', include('fornecedores.urls', namespace='fornecedores')),
     path('pedidos/', include('orders.urls', namespace='orders')),
     path('itens_pedido/', include('orderitems.urls', namespace='orderitems')),
+    path('token-autenticacao/', obtain_auth_token)
+
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
