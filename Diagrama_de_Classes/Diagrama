@@ -1,0 +1,113 @@
+@startuml DiagramaDeClassesAluguelImpressoras
+
+'==========================
+' CATEGORIA
+'==========================
+class Categoria {
+    -name: Char
+    -description: Text
+    -tipo: Char
+    -colorida: Boolean
+    -velocidade_media_ppm: Integer
+    --
+    +toString()
+}
+
+'==========================
+' IMPRESSORA
+'==========================
+class Impressora {
+    -name: Char
+    -description: Text
+    -date_fabrication: Date
+    -is_active: Boolean
+    -photo: Image
+    -doc: File
+    --
+    +toString()
+}
+
+'==========================
+' PEDIDO DE ALUGUEL
+'==========================
+class Pedido {
+    -payment_method: Char
+    -status: Char
+    -start_date: Date
+    -end_date: Date
+    --
+    +toString()
+}
+
+'==========================
+' ITEM DO PEDIDO DE ALUGUEL
+'==========================
+class ItemPedido {
+    -quantity: Integer
+    -unitary_price: Decimal
+    --
+    +toString()
+}
+
+'==========================
+' CLIENTE
+'==========================
+class Cliente {
+    -first_name: Char
+    -last_name: Char
+    -address: Char
+    -cell_phone: Char
+    -email: Email
+    -gender: Char
+    --
+    +toString()
+}
+
+'==========================
+' DOCUMENTOS
+'==========================
+class Documentos {
+    -tipo: Char
+    -numero: Char
+    -orgao_emissor: Char
+    -data_emissao: Date
+    -validade: Date
+    --
+    +toString()
+}
+
+'==========================
+' CLIENTE_DOCUMENTOS
+'==========================
+class ClienteDocumentos {
+    -cliente: Cliente
+    -documento: Documentos
+}
+
+'==========================
+' FORNECEDOR
+'==========================
+class Fornecedor {
+    -razao_social: Char
+    -nome: Char
+    -cnpj: Char
+    -telefone: Char
+    -email: Email
+    -endereco: Char
+    --
+    +toString()
+}
+
+'==========================
+' RELACIONAMENTOS
+'==========================
+Impressora o-- Categoria           : pertence a
+Impressora o-- Fornecedor          : fornecida por
+Pedido o-- Cliente                 : feito por
+Pedido o-- Impressora              : para
+ItemPedido o-- Pedido              : pertence a
+ItemPedido o-- Impressora          : refere-se a
+ClienteDocumentos o-- Cliente      : pertence a
+ClienteDocumentos o-- Documentos   : refere-se a
+
+@enduml
