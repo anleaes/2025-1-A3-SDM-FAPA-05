@@ -7,7 +7,8 @@ class Printer(models.Model):
     date_fabrication = models.DateField('Data Fabricacao')
     is_active = models.BooleanField('Ativo', default=False)
     category = models.ForeignKey('categories.Category', on_delete=models.CASCADE)  # String com app.Model
-
+    photo = models.ImageField('Foto', upload_to='photos')
+    doc = models.FileField('Documentos', upload_to='docs')
     class Meta:
         verbose_name = 'Impressora'
         verbose_name_plural = 'Impressoras'
