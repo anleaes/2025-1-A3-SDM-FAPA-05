@@ -15,6 +15,8 @@ import os
 import sys 
 from decouple import config
 
+
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -22,6 +24,8 @@ APPS_DIR = os.path.join(BASE_DIR, 'apps')
 sys.path.insert(0, APPS_DIR) 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
@@ -50,6 +54,7 @@ INSTALLED_APPS = [
     'fornecedores.apps.FornecedoresConfig',
     'orders.apps.OrdersConfig',
     'orderitems.apps.OrderitemsConfig',
+    'django_filters',
 
 
 
