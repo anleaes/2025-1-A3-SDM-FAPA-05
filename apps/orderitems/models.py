@@ -1,6 +1,6 @@
 from django.db import models
-from products.models import Product
-from orders.models import Order
+from printers.models import Printer
+from orders.models import RentalOrder
 # Create your models here.
 
 class RentalItem(models.Model):

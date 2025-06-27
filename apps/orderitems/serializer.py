@@ -1,8 +1,7 @@
-
-from .models import Orderitem
+from .models import RentalItem
 from rest_framework import serializers
-    
-class OrderitemSerializer(serializers.ModelSerializer):
+
+class RentalItemSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Orderitem
+        model = RentalItem
         fields = '__all__'

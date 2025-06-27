@@ -1,9 +1,8 @@
-from django.shortcuts import render
-from .models import Orderitem
+from .models import RentalItem
 from rest_framework import viewsets
-from .serializer import  OrderitemSerializer
+from .serializer import RentalItemSerializer
 # Create your views here.
 
-class OrderitemViewSet(viewsets.ModelViewSet):
-    queryset = Orderitem.objects.all()
-    serializer_class = OrderitemSerializer  
+class RentalItemViewSet(viewsets.ModelViewSet):
+    queryset = RentalItem.objects.all()
+    serializer_class = RentalItemSerializer
